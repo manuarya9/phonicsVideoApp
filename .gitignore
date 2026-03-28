@@ -4,4 +4,6 @@ __pycache__/
 .venv/
 DerivedData/
 build/
-
+*.xcuserstate
+xcuserdata/
+project.xcworkspace/

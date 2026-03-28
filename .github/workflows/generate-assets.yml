@@ -3,8 +3,10 @@ name: Generate Phonics Assets
 on:
   push:
     paths:
+      - "generator/**"
       - "generator/data/**"
       - "assets/images/**"
+      - ".github/workflows/generate-assets.yml"
   workflow_dispatch:
 
 permissions:
@@ -30,9 +32,8 @@ jobs:
 
       - name: Generate videos and metadata
         env:
-          HF_API_KEY: ${{ secrets.HF_API_KEY }}
-          HF_API_SECRET: ${{ secrets.HF_API_SECRET }}
-          HF_MODEL_ID: ${{ vars.HF_MODEL_ID || 'higgsfield/lipsync-2' }}
+          RUNWAYML_API_SECRET: ${{ secrets.RUNWAYML_API_SECRET }}
+          RUNWAY_MODEL: ${{ vars.RUNWAY_MODEL || 'gen4_turbo' }}
         run: python generator/generate_assets.py --force
 
       - name: Open pull request with generated assets
@@ -44,9 +45,8 @@ jobs:
           body: |
             Automated asset refresh triggered by updates to `generator/data` or `assets/images`.
 
-            This PR includes newly generated videos and metadata from Higgsfield.
+            This PR includes newly generated videos and metadata from Runway.
           add-paths: |
             assets/videos
             assets/audio/generated
             assets/metadata
-
