@@ -1,0 +1,56 @@
+[
+  {
+    "letter": "अ",
+    "pronunciation": "[a]",
+    "script": "[calm tone] नमस्ते बच्चों! आज हम अक्षर अ सीखेंगे... अ की ध्वनि अ... अ से अनार... अ से अजगर... बोलो अ.",
+    "example_words": [
+      {
+        "word": "अनार",
+        "image": "assets/images/hi/anar.png",
+        "audio": "assets/audio/hi/anar.mp3"
+      },
+      {
+        "word": "अजगर",
+        "image": "assets/images/hi/ajgar.png",
+        "audio": "assets/audio/hi/ajgar.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "आ",
+    "pronunciation": "[aa]",
+    "script": "[encouraging tone] यह है आ... आ की ध्वनि आ... आ से आम... आ से आग... ज़ोर से बोलो आ.",
+    "example_words": [
+      {
+        "word": "आम",
+        "image": "assets/images/hi/aam.png",
+        "audio": "assets/audio/hi/aam.mp3"
+      },
+      {
+        "word": "आग",
+        "image": "assets/images/hi/aag.png",
+        "audio": "assets/audio/hi/aag.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "इ",
+    "pronunciation": "[i]",
+    "script": "[bright tone] अब सीखते हैं इ... इ की ध्वनि इ... इ से इमली... इ से इत्र... एक बार फिर, इ!",
+    "example_words": [
+      {
+        "word": "इमली",
+        "image": "assets/images/hi/imli.png",
+        "audio": "assets/audio/hi/imli.mp3"
+      },
+      {
+        "word": "इत्र",
+        "image": "assets/images/hi/itr.png",
+        "audio": "assets/audio/hi/itr.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  }
+]

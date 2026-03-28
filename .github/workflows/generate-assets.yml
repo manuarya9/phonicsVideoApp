@@ -1,0 +1,52 @@
+name: Generate Phonics Assets
+
+on:
+  push:
+    paths:
+      - "generator/data/**"
+      - "assets/images/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install generator dependencies
+        run: pip install -r generator/requirements.txt
+
+      - name: Generate videos and metadata
+        env:
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
+          HF_API_SECRET: ${{ secrets.HF_API_SECRET }}
+          HF_MODEL_ID: ${{ vars.HF_MODEL_ID || 'higgsfield/lipsync-2' }}
+        run: python generator/generate_assets.py --force
+
+      - name: Open pull request with generated assets
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/generated-phonics-assets
+          commit-message: "chore: refresh generated phonics assets"
+          title: "Refresh generated phonics assets"
+          body: |
+            Automated asset refresh triggered by updates to `generator/data` or `assets/images`.
+
+            This PR includes newly generated videos and metadata from Higgsfield.
+          add-paths: |
+            assets/videos
+            assets/audio/generated
+            assets/metadata
+

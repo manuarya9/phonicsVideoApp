@@ -1,0 +1,56 @@
+[
+  {
+    "letter": "A",
+    "pronunciation": "[a]",
+    "script": "[gentle tone] Bonjour les enfants! Voici la lettre A... A fait a... A comme avion... A comme abeille... Répétons A.",
+    "example_words": [
+      {
+        "word": "avion",
+        "image": "assets/images/fr/avion.png",
+        "audio": "assets/audio/fr/avion.mp3"
+      },
+      {
+        "word": "abeille",
+        "image": "assets/images/fr/abeille.png",
+        "audio": "assets/audio/fr/abeille.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "B",
+    "pronunciation": "[bé]",
+    "script": "[warm tone] Regardons B... B fait bé... B comme bateau... B comme banane... Disons B ensemble!",
+    "example_words": [
+      {
+        "word": "bateau",
+        "image": "assets/images/fr/bateau.png",
+        "audio": "assets/audio/fr/bateau.mp3"
+      },
+      {
+        "word": "banane",
+        "image": "assets/images/fr/banane.png",
+        "audio": "assets/audio/fr/banane.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "C",
+    "pronunciation": "[sé]",
+    "script": "[playful tone] Voilà C... C peut faire k... C comme chat... C comme camion... Écoutons bien la lettre C.",
+    "example_words": [
+      {
+        "word": "chat",
+        "image": "assets/images/fr/chat.png",
+        "audio": "assets/audio/fr/chat.mp3"
+      },
+      {
+        "word": "camion",
+        "image": "assets/images/fr/camion.png",
+        "audio": "assets/audio/fr/camion.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  }
+]

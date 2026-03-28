@@ -1,0 +1,56 @@
+[
+  {
+    "letter": "ا",
+    "pronunciation": "[alif]",
+    "script": "[calm tone] مرحباً يا أصدقاء! هذا هو الحرف ا... ا مثل أرنب... ا مثل أسد... هيا نكرر ا.",
+    "example_words": [
+      {
+        "word": "أرنب",
+        "image": "assets/images/ar/arnab.png",
+        "audio": "assets/audio/ar/arnab.mp3"
+      },
+      {
+        "word": "أسد",
+        "image": "assets/images/ar/asad.png",
+        "audio": "assets/audio/ar/asad.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "ب",
+    "pronunciation": "[baa]",
+    "script": "[happy tone] هذا هو الحرف ب... ب مثل باب... ب مثل بطة... هل تستطيع قول ب؟",
+    "example_words": [
+      {
+        "word": "باب",
+        "image": "assets/images/ar/bab.png",
+        "audio": "assets/audio/ar/bab.mp3"
+      },
+      {
+        "word": "بطة",
+        "image": "assets/images/ar/batta.png",
+        "audio": "assets/audio/ar/batta.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "ت",
+    "pronunciation": "[taa]",
+    "script": "[warm tone] لننظر إلى ت... ت مثل تفاح... ت مثل تمساح... رائع! كرر الحرف ت.",
+    "example_words": [
+      {
+        "word": "تفاح",
+        "image": "assets/images/ar/tuffah.png",
+        "audio": "assets/audio/ar/tuffah.mp3"
+      },
+      {
+        "word": "تمساح",
+        "image": "assets/images/ar/timsah.png",
+        "audio": "assets/audio/ar/timsah.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  }
+]

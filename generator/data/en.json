@@ -1,0 +1,56 @@
+[
+  {
+    "letter": "A",
+    "pronunciation": "[ay]",
+    "script": "[calm tone] Hi kids! Let's learn the letter A... A says ay... A is for apple... A is for ant... Can you say A?",
+    "example_words": [
+      {
+        "word": "apple",
+        "image": "assets/images/en/apple.png",
+        "audio": "assets/audio/en/apple.mp3"
+      },
+      {
+        "word": "ant",
+        "image": "assets/images/en/ant.png",
+        "audio": "assets/audio/en/ant.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "B",
+    "pronunciation": "[buh]",
+    "script": "[bright tone] Let's practice B... B says buh... B is for ball... B is for bee... Big B, little b!",
+    "example_words": [
+      {
+        "word": "ball",
+        "image": "assets/images/en/ball.png",
+        "audio": "assets/audio/en/ball.mp3"
+      },
+      {
+        "word": "bee",
+        "image": "assets/images/en/bee.png",
+        "audio": "assets/audio/en/bee.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  },
+  {
+    "letter": "C",
+    "pronunciation": "[kuh]",
+    "script": "[encouraging tone] Here comes C... C says kuh... C is for cat... C is for car... Let's repeat C together!",
+    "example_words": [
+      {
+        "word": "cat",
+        "image": "assets/images/en/cat.png",
+        "audio": "assets/audio/en/cat.mp3"
+      },
+      {
+        "word": "car",
+        "image": "assets/images/en/car.png",
+        "audio": "assets/audio/en/car.mp3"
+      }
+    ],
+    "avatar_image": "assets/images/avatars/61c11774-33b2-4341-8a56-7572b3c3e872.JPG"
+  }
+]
